@@ -25,8 +25,9 @@ skip-levels = 1
 enable = true
 wrap-at-text-width = true
 
-[editor.file-picker]
-hidden = false
+[editor.lsp]
+auto-signature-help = false
+display-inlay-hints = true
 
 [keys.normal]
 C-s = ":w"
